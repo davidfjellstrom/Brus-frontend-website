@@ -1,9 +1,9 @@
 <!DOCTYPE html>
-<html lang="sv">
+<html lang="en">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Beställ — BRUS</title>
+  <title>Order — BRUS</title>
   <link rel="stylesheet" href="brus.css" />
 </head>
 <body>
@@ -13,158 +13,154 @@
     <nav>
       <a class="logo" href="index.html">BR<span>U</span>S</a>
       <ul>
-        <li><a href="smaker.html">Smaker</a></li>
-        <li><a href="om-oss.html">Om oss</a></li>
-        <li><a href="hallbarhet.html">Hållbarhet</a></li>
-        <li><a href="bestall.html" class="nav-cta">Beställ</a></li>
+        <li><a href="smaker.html">Flavours</a></li>
+        <li><a href="om-oss.html">About</a></li>
+        <li><a href="hallbarhet.html">Sustainability</a></li>
+        <li><a href="bestall.html" class="nav-cta">Order</a></li>
       </ul>
     </nav>
 
     <section class="page-section">
-      <p class="hero-eyebrow">Direkt till dörren</p>
-      <h1>Din beställning.<br><em>Levereras hem.</em></h1>
-      <p class="lead">Välj dina smaker, fyll i leveransuppgifter och bekräfta. Vi levererar inom 2–4 vardagar.</p>
+      <p class="hero-eyebrow">Straight to your door</p>
+      <h1>Your order.<br><em>Delivered home.</em></h1>
+      <p class="lead">Choose your flavours, fill in your delivery details and confirm. We deliver within 2–4 business days.</p>
 
       <div id="order-form-wrap" class="order-wrap">
 
-        <!-- Left: product selection + shipping -->
         <div class="order-form">
           <form id="order-form" novalidate>
 
-            <h2>Välj smaker</h2>
+            <h2>Choose flavours</h2>
 
             <label class="product-pick">
-              <input type="checkbox" name="smak" value="citron-ingefara" data-name="Citron &amp; Ingefära" data-price="159" />
+              <input type="checkbox" name="smak" value="citron-ingefara" data-name="Lemon &amp; Ginger" data-price="159" />
               <span class="pick-icon">🍋</span>
               <span class="pick-info">
-                <strong>Citron &amp; Ingefära</strong>
-                <span>6-pack · 159 kr</span>
+                <strong>Lemon &amp; Ginger</strong>
+                <span>6-pack · €15.90</span>
               </span>
-              <span class="pick-price">159 kr</span>
+              <span class="pick-price">€15.90</span>
             </label>
 
             <label class="product-pick">
-              <input type="checkbox" name="smak" value="jordgubb-basilika" data-name="Jordgubb &amp; Basilika" data-price="159" />
+              <input type="checkbox" name="smak" value="jordgubb-basilika" data-name="Strawberry &amp; Basil" data-price="159" />
               <span class="pick-icon">🍓</span>
               <span class="pick-info">
-                <strong>Jordgubb &amp; Basilika</strong>
-                <span>6-pack · 159 kr</span>
+                <strong>Strawberry &amp; Basil</strong>
+                <span>6-pack · €15.90</span>
               </span>
-              <span class="pick-price">159 kr</span>
+              <span class="pick-price">€15.90</span>
             </label>
 
             <label class="product-pick">
-              <input type="checkbox" name="smak" value="gurka-mynta" data-name="Gurka &amp; Mynta" data-price="159" />
+              <input type="checkbox" name="smak" value="gurka-mynta" data-name="Cucumber &amp; Mint" data-price="159" />
               <span class="pick-icon">🥒</span>
               <span class="pick-info">
-                <strong>Gurka &amp; Mynta</strong>
-                <span>6-pack · 159 kr</span>
+                <strong>Cucumber &amp; Mint</strong>
+                <span>6-pack · €15.90</span>
               </span>
-              <span class="pick-price">159 kr</span>
+              <span class="pick-price">€15.90</span>
             </label>
 
             <label class="product-pick">
-              <input type="checkbox" name="smak" value="svarta-vinbar-lavendel" data-name="Svarta Vinbär &amp; Lavendel" data-price="175" />
+              <input type="checkbox" name="smak" value="svarta-vinbar-lavendel" data-name="Blackcurrant &amp; Lavender" data-price="175" />
               <span class="pick-icon">🍇</span>
               <span class="pick-info">
-                <strong>Svarta Vinbär &amp; Lavendel</strong>
-                <span>6-pack · 175 kr — Limiterad</span>
+                <strong>Blackcurrant &amp; Lavender</strong>
+                <span>6-pack · €17.50 — Limited</span>
               </span>
-              <span class="pick-price">175 kr</span>
+              <span class="pick-price">€17.50</span>
             </label>
 
             <hr class="divider" />
-            <h2>Leveransuppgifter</h2>
+            <h2>Delivery details</h2>
 
             <div style="display:grid; grid-template-columns:1fr 1fr; gap:0.8rem;">
               <div class="form-group">
-                <label for="fname">Förnamn</label>
+                <label for="fname">First name</label>
                 <input type="text" id="fname" name="fname" required autocomplete="given-name" />
               </div>
               <div class="form-group">
-                <label for="lname">Efternamn</label>
+                <label for="lname">Last name</label>
                 <input type="text" id="lname" name="lname" required autocomplete="family-name" />
               </div>
             </div>
 
             <div class="form-group">
-              <label for="email">E-post</label>
+              <label for="email">Email</label>
               <input type="email" id="email" name="email" required autocomplete="email" />
             </div>
 
             <div class="form-group">
-              <label for="phone">Telefon</label>
+              <label for="phone">Phone</label>
               <input type="tel" id="phone" name="phone" autocomplete="tel" />
             </div>
 
             <div class="form-group">
-              <label for="address">Gatuadress</label>
+              <label for="address">Street address</label>
               <input type="text" id="address" name="address" required autocomplete="street-address" />
             </div>
 
             <div style="display:grid; grid-template-columns:1fr 2fr; gap:0.8rem;">
               <div class="form-group">
-                <label for="postal">Postnummer</label>
-                <input type="text" id="postal" name="postal" required autocomplete="postal-code" placeholder="123 45" />
+                <label for="postal">Postal code</label>
+                <input type="text" id="postal" name="postal" required autocomplete="postal-code" />
               </div>
               <div class="form-group">
-                <label for="city">Stad</label>
+                <label for="city">City</label>
                 <input type="text" id="city" name="city" required autocomplete="address-level2" />
               </div>
             </div>
 
             <div class="form-group">
-              <label for="country">Land</label>
+              <label for="country">Country</label>
               <select id="country" name="country" required>
-                <option value="SE" selected>Sverige</option>
-                <option value="NO">Norge</option>
-                <option value="DK">Danmark</option>
+                <option value="SE" selected>Sweden</option>
+                <option value="NO">Norway</option>
+                <option value="DK">Denmark</option>
                 <option value="FI">Finland</option>
               </select>
             </div>
 
-            <button type="submit" class="submit-btn">Bekräfta beställning →</button>
+            <button type="submit" class="submit-btn">Confirm order →</button>
           </form>
         </div>
 
-        <!-- Right: order summary -->
         <div class="order-summary">
-          <h2>Ordersammanfattning</h2>
+          <h2>Order summary</h2>
           <div id="summary-lines">
-            <p style="color:rgba(202,240,248,0.45); font-size:0.87rem;">Inga produkter valda ännu.</p>
+            <p style="color:rgba(202,240,248,0.45); font-size:0.87rem;">No products selected yet.</p>
           </div>
           <hr class="divider" style="margin:1rem 0;" />
           <div class="summary-line total">
-            <span>Totalt</span>
-            <span id="summary-total">0 kr</span>
+            <span>Total</span>
+            <span id="summary-total">€0</span>
           </div>
           <div class="summary-line" style="margin-top:0.4rem;">
-            <span>Frakt</span>
+            <span>Shipping</span>
             <span id="summary-shipping">—</span>
           </div>
           <p style="font-size:0.75rem; color:rgba(202,240,248,0.4); margin-top:1.4rem; line-height:1.6;">
-            Fri frakt inom Sverige vid beställning över 300 kr. Leverans inom 2–4 vardagar via DHL.
+            Free shipping on orders over €30. Delivery within 2–4 business days via DHL.
           </p>
         </div>
       </div>
 
-      <!-- Confirmation -->
       <div id="confirmation" class="confirmation">
         <div class="check">🫧</div>
-        <h2>Tack för din beställning!</h2>
-        <p>Vi har tagit emot din order och skickar en bekräftelse till din e-post inom kort.<br>Leverans sker inom 2–4 vardagar.</p>
+        <h2>Thank you for your order!</h2>
+        <p>We have received your order and will send a confirmation to your email shortly.<br>Delivery within 2–4 business days.</p>
         <br />
-        <a href="index.html" class="btn-ghost" style="margin-top:1rem;">Tillbaka till startsidan</a>
+        <a href="index.html" class="btn-ghost" style="margin-top:1rem;">Back to home</a>
       </div>
 
     </section>
 
-    <footer>© 2026 BRUS Drycker AB &nbsp;·&nbsp; Stockholm, Sverige &nbsp;·&nbsp; <a href="mailto:hej@brusdrycker.se">hej@brusdrycker.se</a></footer>
+    <footer>© 2026 BRUS Drycker AB &nbsp;·&nbsp; Stockholm, Sweden &nbsp;·&nbsp; <a href="mailto:hej@brusdrycker.se">hej@brusdrycker.se</a></footer>
   </div>
 
   <script src="bubbles.js"></script>
   <script>
-    // Pre-select flavor from URL param
     const params = new URLSearchParams(location.search);
     const preSmak = params.get('smak');
     if (preSmak) {
@@ -172,7 +168,6 @@
       if (cb) cb.checked = true;
     }
 
-    // Summary update
     function updateSummary() {
       const checked = [...document.querySelectorAll('input[name="smak"]:checked')];
       const linesEl = document.getElementById('summary-lines');
@@ -180,8 +175,8 @@
       const shipEl  = document.getElementById('summary-shipping');
 
       if (checked.length === 0) {
-        linesEl.innerHTML = '<p style="color:rgba(202,240,248,0.45); font-size:0.87rem;">Inga produkter valda ännu.</p>';
-        totalEl.textContent = '0 kr';
+        linesEl.innerHTML = '<p style="color:rgba(202,240,248,0.45); font-size:0.87rem;">No products selected yet.</p>';
+        totalEl.textContent = '€0';
         shipEl.textContent = '—';
         return;
       }
@@ -190,11 +185,11 @@
       linesEl.innerHTML = checked.map(cb => {
         const price = parseInt(cb.dataset.price);
         total += price;
-        return `<div class="summary-line"><span>${cb.dataset.name}</span><span>${price} kr</span></div>`;
+        return `<div class="summary-line"><span>${cb.dataset.name}</span><span>€${(price/10).toFixed(2)}</span></div>`;
       }).join('');
 
-      totalEl.textContent = total + ' kr';
-      shipEl.textContent = total >= 300 ? 'Gratis' : '49 kr';
+      totalEl.textContent = '€' + (total / 10).toFixed(2);
+      shipEl.textContent = total >= 300 ? 'Free' : '€4.90';
     }
 
     document.querySelectorAll('input[name="smak"]').forEach(cb => {
@@ -202,12 +197,11 @@
     });
     updateSummary();
 
-    // Form submit
     document.getElementById('order-form').addEventListener('submit', e => {
       e.preventDefault();
       const checked = [...document.querySelectorAll('input[name="smak"]:checked')];
       if (checked.length === 0) {
-        alert('Välj minst en smak för att fortsätta.');
+        alert('Please select at least one flavour to continue.');
         return;
       }
       document.getElementById('order-form-wrap').style.display = 'none';
