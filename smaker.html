@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Smaker — BRUS</title>
+  <link rel="stylesheet" href="brus.css" />
+</head>
+<body>
+  <canvas id="c" data-bubble-count="14"></canvas>
+  <div id="ui">
+
+    <nav>
+      <a class="logo" href="index.html">BR<span>U</span>S</a>
+      <ul>
+        <li><a href="smaker.html" class="active">Smaker</a></li>
+        <li><a href="om-oss.html">Om oss</a></li>
+        <li><a href="hallbarhet.html">Hållbarhet</a></li>
+        <li><a href="bestall.html" class="nav-cta">Beställ</a></li>
+      </ul>
+    </nav>
+
+    <section class="page-section">
+      <p class="hero-eyebrow">Vår kollektion</p>
+      <h1>Fyra smaker.<br><em>Oändlig törst.</em></h1>
+      <p class="lead">Varje smak är framtagen med råvaror från svenska och nordiska producenter. Inget tillsatt socker, inga konstgjorda aromer.</p>
+
+      <div class="flavor-grid">
+
+        <div class="flavor-card">
+          <div class="icon">🍋</div>
+          <h3>Citron & Ingefära</h3>
+          <p class="desc">Pigg syra möter varm ingefärshetta — en klassiker som kickar igång dagen.</p>
+          <p class="ingredients">Naturliga aromer · Citrusolja · Ingefärsextrakt</p>
+          <p class="price">29 kr / burk &nbsp;·&nbsp; 159 kr / 6-pack</p>
+          <a href="bestall.html?smak=citron-ingefara" class="btn-primary">Beställ</a>
+        </div>
+
+        <div class="flavor-card">
+          <div class="icon">🍓</div>
+          <h3>Jordgubb & Basilika</h3>
+          <p class="desc">Söt sommar med en örtig twist. Perfekt till brunch eller som läskande mellanmål.</p>
+          <p class="ingredients">Jordgubbsextrakt · Färsk basilika · Källvatten</p>
+          <p class="price">29 kr / burk &nbsp;·&nbsp; 159 kr / 6-pack</p>
+          <a href="bestall.html?smak=jordgubb-basilika" class="btn-primary">Beställ</a>
+        </div>
+
+        <div class="flavor-card">
+          <div class="icon">🥒</div>
+          <h3>Gurka & Mynta</h3>
+          <p class="desc">Svalt och uppfriskande — som en spa-dag i en burk. Vår mest lugna smak.</p>
+          <p class="ingredients">Gurkvatten · Pepparmyntsolja · Källvatten</p>
+          <p class="price">29 kr / burk &nbsp;·&nbsp; 159 kr / 6-pack</p>
+          <a href="bestall.html?smak=gurka-mynta" class="btn-primary">Beställ</a>
+        </div>
+
+        <div class="flavor-card">
+          <div class="icon">🍇</div>
+          <h3>Svarta Vinbär & Lavendel</h3>
+          <p class="desc">Djup bärsmak med blommig finish. Limiterad upplaga — när den är slut är den slut.</p>
+          <p class="ingredients">Svartvinbärsextrakt · Lavendelolja · Källvatten</p>
+          <p class="price">32 kr / burk &nbsp;·&nbsp; 175 kr / 6-pack</p>
+          <a href="bestall.html?smak=svarta-vinbar-lavendel" class="btn-primary">Beställ</a>
+        </div>
+
+      </div>
+
+      <hr class="divider" />
+      <p style="color:rgba(202,240,248,0.5); font-size:0.85rem;">Alla produkter är veganska, glutenfria och innehåller 0 kcal. &nbsp;·&nbsp; Leverans inom 2–4 vardagar.</p>
+    </section>
+
+    <footer>© 2026 BRUS Drycker AB &nbsp;·&nbsp; Stockholm, Sverige &nbsp;·&nbsp; <a href="mailto:hej@brusdrycker.se">hej@brusdrycker.se</a></footer>
+  </div>
+  <script src="bubbles.js"></script>
+</body>
+</html>
